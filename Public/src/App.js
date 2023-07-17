@@ -13,7 +13,7 @@ export default function App() {
           
           <Route exact path="/register" element={<Register/>}/>
           <Route exact path="/login" element={<Login/>}/>
-          <Route exact path="/setavater" element={<SetAvatar/>}/>
+          <Route exact path="/setavatar" element={<SetAvatar/>}/>
           <Route exact path="/" element={<Chat/>}/>
            
         </Routes>
